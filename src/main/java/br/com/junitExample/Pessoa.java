@@ -12,6 +12,10 @@ public class Pessoa {
 		this.idade = idade;
 	}
 	
+	public String dizerOla() {
+		return "Olá!";
+	}
+	
 	public Long getId() {
 		return id;
 	}

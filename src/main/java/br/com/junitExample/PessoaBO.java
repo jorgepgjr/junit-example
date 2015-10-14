@@ -10,6 +10,12 @@ public class PessoaBO {
 	}
 
 	public Pessoa recuperaPessoaMaisVelha() {
+		
+		Pessoa jorge = new Pessoa("Jorge", 25L);
+		
+		String retorno = jorge.dizerOla();
+		
+		
 		List<Pessoa> pessoas = dao.findAll();
 		Pessoa pessoaMaisVelha = null;
 		System.out.println("Quantidade de pessoas retornadas: "
